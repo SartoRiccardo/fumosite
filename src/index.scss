@@ -248,10 +248,10 @@ table.checkered {
 
     .rarity {
         &[data-rarity=Common]:after {
-            content: " (always in stock; can be picky with price in auctions)";
+            content: " (always in stock; can be picky with price in auctions. Price tag could still be very high second hand, due to the state of the market)";
         }
         &[data-rarity=Uncommon]:after {
-            content: " (usually in stock; can wait for fair price in auctions)";
+            content: " (usually in stock; can wait for fair price in auctions. Price tag could still be very high second hand, due to the state of the market)";
         }
         &[data-rarity=Rare]:after {
             content: " (occasionally in stock; auctions are competitive)";
